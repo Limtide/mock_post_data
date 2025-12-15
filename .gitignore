@@ -1,0 +1,30 @@
+# 忽略大体积素材文件夹
+db copy/items/
+db copy/avatars/
+db copy/musics/
+
+downloads/items/
+downloads/avatars/
+downloads/musics/
+
+# 忽略常见媒体格式
+
+*.avi
+*.mov
+*.mp3
+*.wav
+*.flac
+
+
+# Android 常用忽略 (建议加上)
+.gradle/
+local.properties
+.idea/
+build/
+*.iml
+db/items/item_video24.mp4
+db/items/item_video42.mp4
+db/items/item_video113.mp4
+db/items/item_video67.mp4
+db/items/item_video160.mp4
+db/items/item_video175.mp4
