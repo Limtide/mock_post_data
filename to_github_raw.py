@@ -8,7 +8,7 @@ BASE_URL = "https://raw.githubusercontent.com/Limtide/mock_post_data/refs/heads/
 
 # 需要替换的目标文件夹关键词 (防止误伤其他数据)
 # 只要字符串里包含这些词，就会被转换
-TARGET_PATHS = ["db/items/", "db/profiles/"]
+TARGET_PATHS = ["db/items/","db/avatars/","db/musics/","db/profiles/"]
 # =========================================
 
 def to_github_raw():
